@@ -58,7 +58,7 @@ ongoing = True
 while ongoing:
     coffee_choice = input("Choose ('espresso', 'latte', 'cappuccino') or 'report': ").lower()
 
-    if coffee_choice == 'off':
+    if coffee_choice == 'off':#this is a secret mode for maintance to shut the machine completely
         break
 
     if coffee_choice == 'report':
